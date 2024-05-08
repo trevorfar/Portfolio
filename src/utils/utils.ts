@@ -5,7 +5,7 @@ import js from '../../public/chips/js.svg'
 
 const projects = [
     {
-      image: "MAIN IMAGE HERE",
+      image: react,
       title: "Digital Webstore - E-Commerce",
       body: "Fullstack development of a fully interactional digital marketplace",
       chips: [
@@ -22,8 +22,9 @@ const projects = [
           img: tailwind,
         },
       ],
-      images: "gallery",
-      github: "",
+      images: null,
+      preview: "#",
+      github: "https://github.com/trevorfar/newWebstore",
     }
 ]
 export default projects

@@ -7,8 +7,8 @@ import Navbar from "@/Components/Navbar";
 const gabarito = Gabarito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Youness JELLOULI - Portfolio",
-  description: "Youness JELLOULI's portfolio",
+  title: "Trevor Farias - Portfolio",
+  description: "Trevor Farias's Portfolio",
 };
 
 export default function RootLayout({
