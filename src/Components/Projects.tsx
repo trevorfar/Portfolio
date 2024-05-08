@@ -1,7 +1,7 @@
 "use client"
 import ProjectListing from "./ProjectListing";
 import { GitHub, Language } from "@mui/icons-material"
-import projects from "@/lib/utils/projectsList";
+import projects from "@/utils/projectsList";
 
 const Projects = () => {
   return (
