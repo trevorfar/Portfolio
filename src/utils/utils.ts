@@ -25,6 +25,50 @@ const projects = [
       images: null,
       preview: "#",
       github: "https://github.com/trevorfar/newWebstore",
+    },
+    {
+      image: react,
+      title: "Digital Webstore - E-Commerce",
+      body: "Fullstack development of a fully interactional digital marketplace",
+      chips: [
+        {
+          img: mongodb,
+        },
+        {
+          img: js,
+        },
+        {
+          img: react,
+        },
+        {
+          img: tailwind,
+        },
+      ],
+      images: null,
+      preview: "#",
+      github: "https://github.com/trevorfar/newWebstore",
+    },
+    {
+      image: react,
+      title: "Digital Webstore",
+      body: "Fullstack development of a fully interactional digital marketplace",
+      chips: [
+        {
+          img: mongodb,
+        },
+        {
+          img: js,
+        },
+        {
+          img: react,
+        },
+        {
+          img: tailwind,
+        },
+      ],
+      images: null,
+      preview: "#",
+      github: "https://github.com/trevorfar/newWebstore",
     }
 ]
 export default projects

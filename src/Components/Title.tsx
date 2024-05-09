@@ -1,11 +1,11 @@
 const Title = () => {
   return (
     <>
-      <div className="mx-auto max-w-2xl p-8 items-center justify-center">
-        <div className="text-sm text-muted-foreground ">
-            <p>Filler text</p>
-        </div>
-      </div>
+        <h3 className="text-5xl py-10 font-semibold text-center">
+        <span className="text-4xl border-b-4 border-primary-main">
+            Filler text
+      </span>
+      </h3>
     </>
   );
 };

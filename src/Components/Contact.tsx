@@ -1,6 +1,7 @@
 "use client";
 const Contact = () => {
   return (
+    <section id="contact">
     <div className="bg-white justify-center mx-auto aspect-square rounded-xl py-4 w-1/3 border">
       <form
         onSubmit={(e) => {
@@ -19,6 +20,7 @@ const Contact = () => {
         ></textarea>
       </form>
     </div>
+    </section>
   );
 };
 export default Contact;

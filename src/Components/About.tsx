@@ -1,6 +1,9 @@
+import MaxWidthWrapper from "@/utils/MaxWidthWrapper";
+
 const About = () => {
   return (
-    <section id="#about">
+    <section id="about">
+      <MaxWidthWrapper >
       <p className="text-sm text-muted-foreground">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
         aliquid illum debitis eius, in ad quasi dolorem delectus deleniti eaque
@@ -49,6 +52,7 @@ const About = () => {
         quibusdam, velit dolor reiciendis est rem iusto nostrum omnis eius neque
         perspiciatis doloremque corporis doloribus?
       </p>
+      </MaxWidthWrapper>
     </section>
   );
 };
