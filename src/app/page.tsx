@@ -3,6 +3,7 @@ import Title from "@/Components/Title"
 import Projects from "@/Components/Projects"
 import Contact from "@/Components/Contact"
 import GapComponent from "@/Components/Seperator"
+import ContactMe from "@/Components/ContactMe"
 
 
 
@@ -18,9 +19,7 @@ return (
   <GapComponent>
   <Projects />
   </GapComponent>
-  <GapComponent>
-  <Contact />
-  </GapComponent>
+  <ContactMe />
   
   </div>
   
