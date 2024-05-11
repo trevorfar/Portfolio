@@ -10,7 +10,7 @@ import MaxWidthWrapper from "@/utils/MaxWidthWrapper";
 
 const Projects = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const isInView = useInView(ref, { once: true });
 
   const cardVariants = {
     initial: { y: 50, scale: 0.5, opacity: 0 },
