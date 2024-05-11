@@ -80,7 +80,7 @@ const ContactMe = () => {
     <GapComponent>
       <section id="contact" className="overflow-hidden">
         <h3 className="text-5xl py-10 font-semibold text-center">
-          <span className="border-b-4 border-primary-main">My Work</span>
+          <span className="border-b-4 border-primary-main">Contact</span>
         </h3>
         <div className="flex flex-col md:flex-row gap-y-8 space-y-6 md:space-y-0 md:space-x-12 justify-evenly md:items-start flex-wrap">
           <form
@@ -89,7 +89,7 @@ const ContactMe = () => {
             onSubmit={handleSubmit(sendEmail)}
           >
             <h3 className="text-4xl py-10 font-semibold text-center">
-              <span className="border-b-4 border-primary-main">My Work</span>
+              <span className="border-b-4 border-primary-main">Message me?</span>
             </h3>
             <label htmlFor="firstName" className={variant}>
               Your name
@@ -143,7 +143,7 @@ const ContactMe = () => {
           </form>
           <form>
             <h3 className="text-4xl py-10 font-semibold text-center">
-              <span className="border-b-4 border-primary-main">My Work</span>
+              <span className="border-b-4 border-primary-main">My Info</span>
             </h3>
             <div className="flex flex-col w-80">
               <p className={variant}>
@@ -160,6 +160,10 @@ const ContactMe = () => {
                 <div className="flex flex-row">
                   <p className="font-bold pr-1">Location: </p>
                   <p>Victoria, BC, Canada</p>
+                </div>
+                <div className="flex flex-row">
+                  <p className="font-bold pr-1">Phone: </p>
+                  <p>(+1) 236.562.3646</p>
                 </div>
               </div>
               <div className="flex flex-row mx-auto justify-center items-center">
