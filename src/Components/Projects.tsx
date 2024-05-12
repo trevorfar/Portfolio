@@ -6,7 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState } from "react";
 import ProjectGallery from "./ProjectGallery";
-import MaxWidthWrapper from "@/utils/MaxWidthWrapper";
 
 const Projects = () => {
   const ref = useRef(null);
