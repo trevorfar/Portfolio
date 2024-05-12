@@ -89,7 +89,7 @@ const ContactMe = () => {
             onSubmit={handleSubmit(sendEmail)}
           >
             <h3 className="text-4xl py-10 font-semibold text-center">
-              <span className="border-b-4 border-primary-main">Message me?</span>
+              <span className="border-b-4">Message me?</span>
             </h3>
             <label htmlFor="firstName" className={variant}>
               Your name
@@ -143,7 +143,7 @@ const ContactMe = () => {
           </form>
           <form>
             <h3 className="text-4xl py-10 font-semibold text-center">
-              <span className="border-b-4 border-primary-main">My Info</span>
+              <span className="border-b-4">My Info</span>
             </h3>
             <div className="flex flex-col w-80">
               <p className={variant}>

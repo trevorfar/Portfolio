@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import {
   CheckCircleOutline,
@@ -6,6 +7,7 @@ import {
   LinkedIn,
 } from "@mui/icons-material";
 import { Button, buttonVariants } from "./ui/button";
+import { motion } from "framer-motion";
 
 const socials = [
   {
@@ -21,7 +23,12 @@ const socials = [
 const Title = () => {
   return (
     <section id="title">
-      <div className="flex flex-col justify-center items-center gap-4 relative h-screen w-full">
+      <motion.div 
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      className="flex flex-col justify-center items-center gap-4 relative h-screen w-full">
+      
         <h1 className="text-xl font-bold">Hi, I am</h1>
         <p className="text-5xl font-bold text-gradient text-center">
           Trevor Farias
@@ -30,6 +37,7 @@ const Title = () => {
           <Link className="btn-bordered" href="/#projects" target="_blank">
             Projects
           </Link>
+
           <Link className="btn-bordered" href="/#projects" target="_blank">
             Resume
           </Link>
@@ -57,7 +65,7 @@ const Title = () => {
             </Link>
           ))}
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
