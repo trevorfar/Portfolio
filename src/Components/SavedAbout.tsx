@@ -1,28 +1,14 @@
-"use client";
+"use client"
 import MaxWidthWrapper from "@/utils/MaxWidthWrapper";
 import react from "../../public/chips/react.svg";
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 const About = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
-  const cardVariants = {
-    initial: { y: 50, scale: 0.5, opacity: 0 },
-    animate: {
-      y: 0,
-      scale: 1,
-      opacity: 1,
-    },
-  
-  };
-
   return (
     <>
       <MaxWidthWrapper>
-        <section id="about" className="w-9/12 mx-auto pt-4 pb-20">
+        <section id="about" className="w-9/12 mx-auto pt-12 pb-20">
           <div className="">
             <h3 className="text-5xl py-10 font-semibold text-center">
               <span className="border-b-4 border-primary-main">About</span>
@@ -40,14 +26,8 @@ const About = () => {
                 qui optio repudiandae maxime blanditiis molestias.
               </p>
             </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-16"
-            ref={ref}>
-            <motion.div 
-            variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3 }}
-            >
+
+            <motion.div className="grid md:grid-cols-2 grid-cols-1 gap-16">
               <div className="">
                 <h3 className="text-4xl py-10 font-semibold text-center">
                   <span className="border-b-4 border-primary-main">
@@ -68,13 +48,6 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              </motion.div>
-            <motion.div 
-            variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3 }}
-            >
               <div className="">
                 <h3 className="text-4xl py-10 font-semibold text-center">
                   <span className="border-b-4 border-primary-main">
@@ -83,7 +56,7 @@ const About = () => {
                 </h3>
                 <div className="flex gap-16 justify-center align-items">
                   <div className="flex-col">
-                  <p className="text-lg">Java</p>
+                    <p className="text-lg">Java</p>
                     <p className="text-lg">C</p>
                     <p className="text-lg">JavaScript</p>
                   </div>
@@ -94,11 +67,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              </motion.div>
-
-              
-           
-            </div>
+            </motion.div>
           </div>
         </section>
       </MaxWidthWrapper>

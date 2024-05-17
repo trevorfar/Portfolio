@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import Link from 'next/link'
+import Link from "next/link";
 import {
   CheckCircleOutline,
   GitHub,
@@ -74,7 +74,7 @@ const ContactMe = () => {
     }, 3000);
   };
 
-  const variant = "text-gray-500 border-b-2 mb-2";
+  const variant = "text-gray-500 border-b-2  border-primary-main mb-2";
 
   return (
     <GapComponent>
@@ -89,7 +89,9 @@ const ContactMe = () => {
             onSubmit={handleSubmit(sendEmail)}
           >
             <h3 className="text-4xl py-10 font-semibold text-center">
-              <span className="border-b-4">Message me?</span>
+              <span className="border-b-4 border-primary-main">
+                Message me?
+              </span>
             </h3>
             <label htmlFor="firstName" className={variant}>
               Your name
@@ -143,7 +145,7 @@ const ContactMe = () => {
           </form>
           <form>
             <h3 className="text-4xl py-10 font-semibold text-center">
-              <span className="border-b-4">My Info</span>
+              <span className="border-b-4 border-primary-main">My Info</span>
             </h3>
             <div className="flex flex-col w-80">
               <p className={variant}>
@@ -152,7 +154,7 @@ const ContactMe = () => {
                 ducimus commodi aspernatur, molestias quia illum quis expedita
                 dolorum quam repellendus fuga numquam! Recusandae?
               </p>
-              <div className="text-gray-500 border-b-2 mb-2 pb-2">
+              <div className="text-gray-500 border-b-2 border-primary-main mb-2 pb-2">
                 <div className="flex flex-row">
                   <p className="font-bold pr-1">Email: </p>
                   <p>trevor_farias@yahoo.com</p>
@@ -167,16 +169,16 @@ const ContactMe = () => {
                 </div>
               </div>
               <div className="flex flex-row mx-auto justify-center items-center">
-              {socials.map((social, index) => (
-                <Link
-                  key={index}
-                  href={social.link}
-                  target="_blank"
-                  className="hover:scale-110 transition"
-                >
-                  {social.icon}
-                </Link>
-              ))}
+                {socials.map((social, index) => (
+                  <Link
+                    key={index}
+                    href={social.link}
+                    target="_blank"
+                    className="hover:scale-110 transition"
+                  >
+                    {social.icon}
+                  </Link>
+                ))}
               </div>
             </div>
           </form>

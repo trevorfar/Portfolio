@@ -39,7 +39,7 @@ const Title = () => {
           </Link>
 
           <Link className="btn-bordered" href="/#projects" target="_blank">
-            Resume
+            Resum&eacute;
           </Link>
         </div>
         <div className="flex text-center justify-center mx-12">
@@ -53,7 +53,7 @@ const Title = () => {
             voluptatum qui autem minus quis!
           </p>
         </div>
-        <div>
+        <div className="flex flex-row">
           {socials.map((social, index) => (
             <Link
               key={index}
@@ -61,7 +61,7 @@ const Title = () => {
               target="_blank"
               className="hover:scale-110 transition"
             >
-              {social.icon}
+              <div className="hover:text-gray-500 hover:scale-110 ">{social.icon}</div>
             </Link>
           ))}
         </div>
