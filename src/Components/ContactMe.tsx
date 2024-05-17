@@ -149,10 +149,9 @@ const ContactMe = () => {
             </h3>
             <div className="flex flex-col w-80">
               <p className={variant}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit, consequatur porro dolores est animi repellat cupiditate
-                ducimus commodi aspernatur, molestias quia illum quis expedita
-                dolorum quam repellendus fuga numquam! Recusandae?
+                I would love to discuss new projects and or opportunities!
+                Please feel free to reach out, and leave as much information as
+                possible.
               </p>
               <div className="text-gray-500 border-b-2 border-primary-main mb-2 pb-2">
                 <div className="flex flex-row">

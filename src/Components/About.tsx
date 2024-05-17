@@ -16,7 +16,6 @@ const About = () => {
       scale: 1,
       opacity: 1,
     },
-  
   };
 
   return (
@@ -27,78 +26,90 @@ const About = () => {
             <h3 className="text-5xl py-10 font-semibold text-center">
               <span className="border-b-4 border-primary-main">About</span>
             </h3>
-            <div className="flex flex-row gap-6 mb-12">
+            <div className="flex flex-col md:flex-row lg:flex-row gap-6 mb-12 ">
               <Image
                 src={react}
                 alt="profile_pic"
-                className="rounded-full h-52 w-52 border-4 border-gray-500"
+                className="rounded-full h-52 w-52 border-4 border-gray-500 mx-auto justify-center align-items"
               />
-              <p className="my-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-                similique autem debitis id tenetur unde quis non voluptas,
-                delectus, consequatur accusantium dolorem necessitatibus animi
-                qui optio repudiandae maxime blanditiis molestias.
-              </p>
+              <div className="my-auto">
+                <p>
+                  Hey, I&apos;m Trevor Farias, an aspiring Software engineer. I
+                  am currently a third-year Computer Engineering student at
+                  Queen&apos;s University in Ontario.
+                </p>
+                <p>
+                  My passion for everything technology started when I got my
+                  first shared-2DS in 2013. As a kid, video games were my
+                  creative outlet, leading me to create and manage Minecraft
+                  servers. I created custom plugins using Java and C, I was
+                  challenged with the difficult task of making sure my community
+                  was happy, while also creating fun and innovative updates.
+                  Through this experience, I realized the significance of the
+                  social aspect that lies beyond programming.
+                </p>
+              </div>
             </div>
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-16"
-            ref={ref}>
-            <motion.div 
-            variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3 }}
+            <section
+              id="skills"
+              className="grid md:grid-cols-2 grid-cols-1 pt-12 gap-16"
+              ref={ref}
             >
-              <div className="">
-                <h3 className="text-4xl py-10 font-semibold text-center">
-                  <span className="border-b-4 border-primary-main">
-                    Frameworks
-                  </span>
-                </h3>
-                <div className="flex gap-16 justify-center align-items">
-                  <div className="flex-col">
-                    <p className="text-lg">ReactJS</p>
-                    <p className="text-lg">Flask</p>
-                    <p className="text-lg">TailwindCSS</p>
-                    <p className="text-lg">PostgreSQL</p>
-                  </div>
-                  <div className="flex-col">
-                    <p className="text-lg">NextJS</p>
-                    <p className="text-lg">Vue</p>
-                    <p className="text-lg">MongoDB</p>
+              <motion.div
+                variants={cardVariants}
+                initial="initial"
+                animate={isInView ? "animate" : "initial"}
+                transition={{ duration: 0.3 }}
+              >
+                <div className="">
+                  <h3 className="text-4xl py-10 font-semibold text-center">
+                    <span className="border-b-4 border-primary-main">
+                      Frameworks
+                    </span>
+                  </h3>
+                  <div className="flex gap-16 justify-center align-items">
+                    <div className="flex-col">
+                      <p className="text-lg">ReactJS</p>
+                      <p className="text-lg">Flask</p>
+                      <p className="text-lg">TailwindCSS</p>
+                      <p className="text-lg">PostgreSQL</p>
+                    </div>
+                    <div className="flex-col">
+                      <p className="text-lg">NextJS</p>
+                      <p className="text-lg">Vue</p>
+                      <p className="text-lg">MongoDB</p>
+                    </div>
                   </div>
                 </div>
-              </div>
               </motion.div>
-            <motion.div 
-            variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3 }}
-            >
-              <div className="">
-                <h3 className="text-4xl py-10 font-semibold text-center">
-                  <span className="border-b-4 border-primary-main">
-                    Languages
-                  </span>
-                </h3>
-                <div className="flex gap-16 justify-center align-items">
-                  <div className="flex-col">
-                  <p className="text-lg">Java</p>
-                    <p className="text-lg">C</p>
-                    <p className="text-lg">JavaScript</p>
-                  </div>
-                  <div className="flex-col">
-                    <p className="text-lg">Python</p>
-                    <p className="text-lg">HTML</p>
-                    <p className="text-lg">CSS</p>
+              <motion.div
+                variants={cardVariants}
+                initial="initial"
+                animate={isInView ? "animate" : "initial"}
+                transition={{ duration: 0.3 }}
+              >
+                <div className="">
+                  <h3 className="text-4xl py-10 font-semibold text-center">
+                    <span className="border-b-4 border-primary-main">
+                      Languages
+                    </span>
+                  </h3>
+                  <div className="flex gap-16 justify-center align-items">
+                    <div className="flex-col">
+                      <p className="text-lg">Java</p>
+                      <p className="text-lg">C</p>
+                      <p className="text-lg">JavaScript</p>
+                      <p className="text-lg">SQL</p>
+                    </div>
+                    <div className="flex-col">
+                      <p className="text-lg">Python</p>
+                      <p className="text-lg">HTML</p>
+                      <p className="text-lg">CSS</p>
+                    </div>
                   </div>
                 </div>
-              </div>
               </motion.div>
-
-              
-           
-            </div>
+            </section>
           </div>
         </section>
       </MaxWidthWrapper>
