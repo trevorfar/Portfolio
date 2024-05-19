@@ -2,30 +2,32 @@ import mongodb from '../../public/chips/mongodb.svg'
 import react from '../../public/chips/react.svg'
 import tailwind from '../../public/chips/tailwind.svg'
 import js from '../../public/chips/js.svg'
+import digitalwebstore from '../../public/DigitalWebstore.png'
 
 const projects = [
     {
-      image: react,
+      image: digitalwebstore,
       title: "Digital Webstore - E-Commerce",
       body: "Fullstack development of a fully interactional digital marketplace",
       chips: [
+        {
+          img: react,
+        },
         {
           img: mongodb,
         },
         {
           img: js,
         },
-        {
-          img: react,
-        },
+      
         {
           img: tailwind,
         },
       ],
-      images: null,
-      preview: "#",
+      preview: "https://digitalwebstore-production.up.railway.app",
       github: "https://github.com/trevorfar/newWebstore",
     },
+
     {
       image: react,
       title: "Digital Webstore - E-Commerce",

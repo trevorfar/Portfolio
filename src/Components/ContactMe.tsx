@@ -123,6 +123,7 @@ const ContactMe = () => {
             <textarea
               {...register("message")}
               name="message"
+              id="message"
               className=" bg-gray-50 rounded w-full 
           resize-none outline-none p-4 overflow-auto mb-2"
               rows={5}

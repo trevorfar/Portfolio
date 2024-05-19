@@ -5,7 +5,6 @@ import { GitHub, Language } from "@mui/icons-material";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState } from "react";
-import ProjectGallery from "./ProjectGallery";
 
 const Projects = () => {
   const ref = useRef(null);
@@ -35,7 +34,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="w-9/12 mx-auto pt-4 pb-10">
+    <section id="projects" className="mx-auto pt-4 pb-10">
       <h3 className="text-5xl py-10 font-semibold text-center">
         <span className="border-b-4 border-primary-main">My Work</span>
       </h3>
@@ -55,12 +54,15 @@ const Projects = () => {
             onClick={onOpen}
             style={{ minHeight: "450px" }}
           >
-            <Image
-              src={project.image}
-              alt={project.title}
-              loading="lazy"
-              className="w-full h-52 object-cover mb-4 rounded-lg border-2 border-gray-600 border-b-4"
-            />
+            <div className="relative w-full h-52 mb-4">
+              <Image
+                src={project.image}
+                alt={project.title}
+                loading="lazy"
+                className="w-full h-full object-cover rounded-lg border-2 border-gray-600 border-b-4"
+                style={{ objectFit: 'cover' }}
+              />
+            </div>
             <h4 className="text-xl text-black dark:text-white font-semibold mb-2">
               {project.title}
             </h4>
@@ -73,12 +75,12 @@ const Projects = () => {
                     src={chip.img}
                     alt=""
                     loading="lazy"
-                    className="w-9  hover:scale-110 transition-all "
+                    className="w-9 hover:scale-110 transition-all"
+                    style={{ objectFit: 'contain' }}
                   />
                 ))}
               </div>
             </div>
-
             <div
               className={
                 project.images
@@ -104,14 +106,6 @@ const Projects = () => {
                   <Language className="text-2xl" />
                 </Link>
               )}
-              {project.images !== null
-                ? project.images && (
-                    <ProjectGallery
-                      title={project.title}
-                      images={project.images}
-                    />
-                  )
-                : null}
             </div>
           </motion.div>
         ))}
