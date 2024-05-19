@@ -32,7 +32,7 @@ const About = () => {
                 alt="profile_pic"
                 className="rounded-full h-52 w-52 border-4 border-gray-500 mx-auto justify-center align-items"
               />
-              <div className="my-auto">
+              <div className="my-auto justify-center items-center text-center md:text-left">
                 <p>
                   Hey, I&apos;m Trevor Farias, an aspiring Software engineer. I
                   am currently a third-year Computer Engineering student at
