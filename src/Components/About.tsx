@@ -1,6 +1,6 @@
 "use client";
 import MaxWidthWrapper from "@/utils/MaxWidthWrapper";
-import react from "../../public/chips/react.svg";
+import headshot from '../../public/Headshot.jpeg'
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
@@ -28,9 +28,9 @@ const About = () => {
             </h3>
             <div className="flex flex-col md:flex-row lg:flex-row gap-6 mb-12 ">
               <Image
-                src={react}
+                src={headshot}
                 alt="profile_pic"
-                className="rounded-full h-52 w-52 border-4 border-gray-500 mx-auto justify-center align-items"
+                className="rounded-full h-60 w-60 border-2 border-primary-main mx-auto justify-center align-items"
               />
               <div className="my-auto justify-center items-center text-center md:text-left">
                 <p>

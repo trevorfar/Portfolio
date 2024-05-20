@@ -38,7 +38,7 @@ const Title = () => {
             Projects
           </Link>
 
-          <Link className="btn-bordered" href="/#projects" target="_blank">
+          <Link className="btn-bordered" href="https://drive.google.com/file/d/1NOynh7CxxGOVeZGklGqv5VZC1XMoteTt/view?usp=drive_link" target="_blank">
             Resum&eacute;
           </Link>
         </div>
