@@ -1,14 +1,21 @@
 import mongodb from '../../public/chips/mongodb.svg'
 import react from '../../public/chips/react.svg'
 import tailwind from '../../public/chips/tailwind.svg'
+import postgres from '../../public/chips/postgres.svg'
 import js from '../../public/chips/js.svg'
 import digitalwebstore from '../../public/DigitalWebstore.png'
+import portfolio_old from '../../public/oldsite.png'
+import todo from '../../public/home.png'
+import Typescript from '../../public/chips/Typescript.svg'
+import flask from '../../public/chips/flask.svg'
+import python from '../../public/chips/python-5.svg'
+
 
 const projects = [
     {
       image: digitalwebstore,
       title: "Digital Webstore - E-Commerce",
-      body: "Fullstack development of a fully interactional digital marketplace",
+      body: "Fullstack development of a fully interactional digital marketplace. Authenticated & backed by payload CMS.",
       chips: [
         {
           img: react,
@@ -17,7 +24,7 @@ const projects = [
           img: mongodb,
         },
         {
-          img: js,
+          img: Typescript,
         },
       
         {
@@ -29,48 +36,41 @@ const projects = [
     },
 
     {
-      image: react,
-      title: "Digital Webstore - E-Commerce",
-      body: "Fullstack development of a fully interactional digital marketplace",
+      image: todo,
+      title: "To-Do Application",
+      body: "To-do list app backed my PostgreSQL in junction with JWC to allow for dynamic storage user authentication",
       chips: [
-        {
-          img: mongodb,
-        },
-        {
-          img: js,
-        },
         {
           img: react,
         },
         {
-          img: tailwind,
+          img: postgres,
+        },
+        {
+          img: Typescript,
         },
       ],
       images: null,
-      preview: "#",
-      github: "https://github.com/trevorfar/newWebstore",
+      github: "https://github.com/trevorfar/To-Do_list",
     },
     {
-      image: react,
-      title: "Digital Webstore",
-      body: "Fullstack development of a fully interactional digital marketplace",
+      image: portfolio_old,
+      title: "Portfolio (old)",
+      body: "Devloped a portfolio site using Flask, custom user authentication backed by postgres with various mini-projects",
       chips: [
         {
-          img: mongodb,
+          img: python,
         },
         {
-          img: js,
+          img: flask,
         },
         {
-          img: react,
-        },
-        {
-          img: tailwind,
+          img: postgres,
         },
       ],
       images: null,
-      preview: "#",
-      github: "https://github.com/trevorfar/newWebstore",
+      preview: "https://trevorfarias.com",
+      github: "https://github.com/trevorfar/Portfolio_Site",
     }
 ]
 export default projects

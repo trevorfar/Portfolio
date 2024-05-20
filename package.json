@@ -17,6 +17,8 @@
     "@mui/material": "^5.15.16",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-slot": "^1.0.2",
+    "@tsparticles/engine": "^3.4.0",
+    "@tsparticles/react": "^3.0.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.0.4",
@@ -24,11 +26,14 @@
     "framer-motion": "^11.1.9",
     "lucide-react": "^0.378.0",
     "next": "14.2.3",
+    "particle-background": "^1.0.8",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.51.4",
+    "react-particles": "^2.12.2",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
+    "tsparticles": "^3.4.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {

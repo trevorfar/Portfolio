@@ -64,7 +64,7 @@ const About = () => {
                 <div className="">
                   <h3 className="text-4xl py-10 font-semibold text-center">
                     <span className="border-b-4 border-primary-main">
-                      Frameworks
+                      Frameworks/DB&apos;s
                     </span>
                   </h3>
                   <div className="flex gap-16 justify-center align-items">

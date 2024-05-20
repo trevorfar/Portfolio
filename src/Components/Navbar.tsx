@@ -18,7 +18,7 @@ const Navbar = () => {
   }, [state]);
 
   return (
-    <nav className="bg-primary-main sticky z-50 top-6 inset-x-0 mx-auto w-80 rounded-xl opacity-75">
+    <nav className="bg-primary-main sticky z-50 top-6 inset-x-0 mx-auto w-80 rounded-xl opacity-90">
       <div className="ml-auto text-white flex items-center h-16 justify-center space-x-8">
         <Link href="/#about" onClick={update} className="hover:text-gray-500">
           About

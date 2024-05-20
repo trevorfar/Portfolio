@@ -34,7 +34,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="mx-auto w-9/12 md:w-full pt-4 pb-10">
+    <section id="projects" className="mx-auto w-9/12 md:w-full pt-4 pb-10 z-40">
       <h3 className="text-5xl py-10 font-semibold text-center">
         <span className="border-b-4 border-primary-main">My Work</span>
       </h3>

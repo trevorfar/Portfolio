@@ -74,11 +74,11 @@ const ContactMe = () => {
     }, 3000);
   };
 
-  const variant = "text-gray-500 border-b-2  border-primary-main mb-2";
+  const variant = "border-b-2  border-primary-main mb-2";
 
   return (
     <GapComponent>
-      <section id="contact" className="overflow-hidden">
+      <section id="contact" className="overflow-hidden z-50">
         <h3 className="text-5xl py-10 font-semibold text-center">
           <span className="border-b-4 border-primary-main">Contact</span>
         </h3>
@@ -154,7 +154,7 @@ const ContactMe = () => {
                 Please feel free to reach out, and leave as much information as
                 possible.
               </p>
-              <div className="text-gray-500 border-b-2 border-primary-main mb-2 pb-2">
+              <div className=" border-b-2 border-primary-main mb-2 pb-2">
                 <div className="flex flex-row">
                   <p className="font-bold pr-1">Email: </p>
                   <p>trevor_farias@yahoo.com</p>
