@@ -69,7 +69,7 @@ const projects = [
         },
       ],
       images: null,
-      preview: "https://trevorfarias.com",
+      preview: "coral-app-u4wfy.ondigitalocean.app",
       github: "https://github.com/trevorfar/Portfolio_Site",
     }
 ]
