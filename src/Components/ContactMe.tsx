@@ -78,8 +78,8 @@ const ContactMe = () => {
 
   return (
     <GapComponent>
-      <section id="contact" className="overflow-hidden z-50">
-        <h3 className="text-5xl py-10 font-semibold text-center">
+      <section id="contact" className="overflow-hidden z-40">
+        <h3 className="text-4xl py-10 font-semibold text-center">
           <span className="border-b-4 border-primary-main">Contact</span>
         </h3>
         <div className="flex flex-col md:flex-row gap-y-8 space-y-6 md:space-y-0 md:space-x-12 justify-evenly md:items-start flex-wrap">
@@ -88,7 +88,7 @@ const ContactMe = () => {
             ref={form}
             onSubmit={handleSubmit(sendEmail)}
           >
-            <h3 className="text-4xl py-10 font-semibold text-center">
+            <h3 className="text-3xl py-10 font-semibold text-center">
               <span className="border-b-4 border-primary-main">
                 Message me?
               </span>
@@ -145,7 +145,7 @@ const ContactMe = () => {
             </Button>
           </form>
           <form>
-            <h3 className="text-4xl py-10 font-semibold text-center">
+            <h3 className="text-3xl py-10 font-semibold text-center">
               <span className="border-b-4 border-primary-main">My Info</span>
             </h3>
             <div className="flex flex-col w-80">

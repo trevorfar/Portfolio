@@ -23,7 +23,7 @@ const About = () => {
       <MaxWidthWrapper>
         <section id="about" className="w-9/12 mx-auto pt-4 pb-20">
           <div className="">
-            <h3 className="text-5xl py-10 font-semibold text-center">
+            <h3 className="text-4xl py-10 font-semibold text-center">
               <span className="border-b-4 border-primary-main">About</span>
             </h3>
             <div className="flex flex-col md:flex-row lg:flex-row gap-6 mb-12 ">
@@ -62,7 +62,7 @@ const About = () => {
                 transition={{ duration: 0.3 }}
               >
                 <div className="">
-                  <h3 className="text-4xl py-10 font-semibold text-center">
+                  <h3 className="text-3xl py-10 font-semibold text-center">
                     <span className="border-b-4 border-primary-main">
                       Frameworks/DB&apos;s
                     </span>
@@ -89,7 +89,7 @@ const About = () => {
                 transition={{ duration: 0.3 }}
               >
                 <div className="">
-                  <h3 className="text-4xl py-10 font-semibold text-center">
+                  <h3 className="text-3xl py-10 font-semibold text-center">
                     <span className="border-b-4 border-primary-main">
                       Languages
                     </span>
