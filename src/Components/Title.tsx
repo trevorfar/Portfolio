@@ -60,13 +60,13 @@ const Title = () => {
         </div>
 
         <div className="text-left flex flex-row mx-4 md:mx-36 gap-4">
-          <div className="flex flex-col w-36 h-42 border-2 border-black cursor-grab mr-4 mb-4">
-            <Link href="https://drive.google.com/file/d/1NOynh7CxxGOVeZGklGqv5VZC1XMoteTt/view?usp=drive_link" target="_blank"><Image src={tinyresume} alt="resume" /> </Link>
+          <div className="flex flex-col w-30 h-36 md:w-36 md:h-42 mr-4 mb-4">
+            <Link className="border-2 border-black" href="https://drive.google.com/file/d/1NOynh7CxxGOVeZGklGqv5VZC1XMoteTt/view?usp=drive_link" target="_blank"><Image src={tinyresume} alt="resume" /> </Link>
             
           </div>  
           <div className="my-auto">
           {showGif && (
-            <Link href="/#projects">
+            <Link href="/#projects md:p-0 p-2">
           <Image
             className=""
             src={TransparentButterfly}
