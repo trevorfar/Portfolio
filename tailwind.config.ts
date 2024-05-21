@@ -75,7 +75,11 @@ const config = {
                 'accordion-down': 'accordion-down 0.2s ease-out',
                 'accordion-up': 'accordion-up 0.2s ease-out',
                 'slide-top': 'slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both'
-            }
+            },
+            fontFamily: {
+                'segoe-script': ['"Segoe Script"', 'cursive'],
+                'smallcaps' : ['"small-caps"']
+              },
         }
     },
     plugins: [require('tailwindcss-animate')]
