@@ -19,7 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="./favicon.ico" />
+      <link rel="shortcut icon" href="/icon.ico" />
+     
       </head>
       <body className={gabarito.className}>
         <Navbar />
