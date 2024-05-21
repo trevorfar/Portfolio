@@ -7,6 +7,10 @@ import {
   LinkedIn,
 } from "@mui/icons-material";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import Tester from '../../public/Tester.gif'
+import Animation from "./Animation";
+import Animator from "./Animator";
 // import { TypeAnimation } from 'react-type-animation';
 
 const socials = [
@@ -19,6 +23,17 @@ const socials = [
     icon: <LinkedIn className="text-3xl" />,
   },
 ];
+const frames = [
+  '/animations/untitled0001.png',
+  '/animations/untitled0002.png',
+  '/animations/untitled0003.png',
+  '/animations/untitled0004.png',
+  '/animations/untitled0005.png',
+  '/animations/untitled0006.png',
+  '/animations/untitled0007.png',
+  '/animations/untitled0008.png',
+ 
+]
 
 const Title = () => {
   return (
@@ -27,8 +42,14 @@ const Title = () => {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }}
-        className="flex flex-col justify-center items-center gap-4 relative my-16 pb-14 w-full"
+        className="flex flex-col justify-center items-center gap-4 relative my-16 pb-14 w-full "
       >
+        <div className="w-[350] h-[128]">
+          <Animator frames={frames}  repeat={false}/>
+            {/* <Image src={Tester} alt=""></Image> */}
+          </div>
+          
+       
         <h1 className="text-xl font-bold">Hi, I am</h1>
         <p className="text-5xl font-bold text-gradient text-center">
           Trevor Farias

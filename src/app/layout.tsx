@@ -22,12 +22,10 @@ export default function RootLayout({
         <link rel="shortcut icon" href="./favicon.ico" />
       </head>
       <body className={gabarito.className}>
-        {/* ADD NAVBAR */}
         <Navbar />
 
         <div className="z-20">{children}</div>
         <div className="fixed top-0 w-full z-[-1] opacity-50 dark:opacity-30"></div>
-        {/* Analytics and SpeedInsights components*/}
       </body>
     </html>
   )
