@@ -32,7 +32,6 @@ const About = () => {
                 className="rounded-full h-60 w-60 border-2 border-primary-main mx-auto justify-center align-items"
               />
               <div className="my-auto justify-center items-center text-center md:text-left">
-
                 <p>
                   Hey, I&apos;m Trevor Farias, an aspiring Software engineer. I
                   am currently a third-year Computer Engineering student at

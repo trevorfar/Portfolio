@@ -66,7 +66,7 @@ const Title = () => {
           </div>  
           <div className="my-auto">
           {showGif && (
-            <Link href="/#projects md:p-0 p-2">
+            <Link href="/#projects" >
           <Image
             className=""
             src={TransparentButterfly}
