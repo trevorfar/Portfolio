@@ -23,11 +23,12 @@ const Navbar = () => {
         <Link href="/#about" onClick={update} className="hover:text-gray-500">
           About
         </Link>
-        <Link href="/#projects" className="hover:text-gray-500">
-          Projects
-        </Link>
+       
         <Link href="/#skills" className="hover:text-gray-500">
           Skills
+        </Link>
+        <Link href="/#projects" className="hover:text-gray-500">
+          Projects
         </Link>
         <Link href="/#contact" className="hover:text-gray-500">
           Contact
