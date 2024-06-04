@@ -5,11 +5,14 @@ import postgres from "../../public/chips/postgres.svg"
 import js from "../../public/chips/js.svg"
 import digitalwebstore from "../../public/DigitalWebstore.png"
 import portfolio_old from "../../public/oldsite.png"
+import GeoGuess from "../../public/GeoGuess_BG.png"
 import todo from "../../public/home.png"
 import Typescript from "../../public/chips/Typescript.svg"
 import flask from "../../public/chips/flask.svg"
 import python from "../../public/chips/python-5.svg"
 import Veloce from "../../public/Veloce.png"
+import nextChip from "../../public/chips/nextjs-icon.svg"
+import Redux from "../../public/chips/redux.svg"
 
 const projects = [
   {
@@ -38,7 +41,7 @@ const projects = [
   {
     image: Veloce,
     title: "Veloce",
-    body: "Veloce is a sleek and dynamic car company website built with Next.js and TypeScript, designed to deliver an exceptional user experience and showcase cutting-edge automotive innovations.",
+    body: "Veloce is a sleek and dynamic car company website built with Next.js and TypeScript, designed to show automotive creations.",
     chips: [
       {
         img: react,
@@ -46,10 +49,35 @@ const projects = [
       {
         img: Typescript,
       },
+      {
+        img: tailwind,
+      },
     ],
     images: null,
     preview: "https://veloce.vercel.app/",
     github: "https://github.com/trevorfar/Veloce",
+  },
+  {
+    image: GeoGuess,
+    title: "GeoGuess",
+    body: "Built using Redux & NextJS, GeoGuess features an interactive wordle-inspired country guessing game, all image vectorized with geojson",
+    chips: [
+      {
+        img: nextChip,
+      },
+      {
+        img: Redux,
+      },
+      {
+        img: Typescript,
+      },
+      {
+        img: tailwind,
+      },
+    ],
+    images: null,
+    preview: "https://country-game-alpha.vercel.app/",
+    github: "https://github.com/trevorfar/CountryGame",
   },
   {
     image: portfolio_old,
