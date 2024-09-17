@@ -15,30 +15,7 @@ import nextChip from "../../public/chips/nextjs-icon.svg"
 import Redux from "../../public/chips/redux.svg"
 
 const projects = [
-  {
-    image: digitalwebstore,
-    title: "Digital Webstore - E-Commerce",
-    body: "Fullstack development of a fully interactional digital marketplace. Authenticated & backed by payload CMS.",
-    chips: [
-      {
-        img: react,
-      },
-      {
-        img: mongodb,
-      },
-      {
-        img: Typescript,
-      },
-
-      {
-        img: tailwind,
-      },
-    ],
-    preview: "https://digitalwebstore-production.up.railway.app",
-    github: "https://github.com/trevorfar/newWebstore",
-  },
-
-  {
+    {
     image: Veloce,
     title: "Veloce",
     body: "Veloce is a sleek and dynamic car company website built with Next.js and TypeScript, designed to show automotive creations.",
@@ -78,6 +55,28 @@ const projects = [
     images: null,
     preview: "https://country-game-alpha.vercel.app/",
     github: "https://github.com/trevorfar/CountryGame",
+  },
+  {
+    image: digitalwebstore,
+    title: "Digital Webstore - E-Commerce",
+    body: "Fullstack development of a fully interactional digital marketplace. Authenticated & backed by payload CMS.",
+    chips: [
+      {
+        img: react,
+      },
+      {
+        img: mongodb,
+      },
+      {
+        img: Typescript,
+      },
+
+      {
+        img: tailwind,
+      },
+    ],
+    preview: "https://digitalwebstore-production.up.railway.app",
+    github: "https://github.com/trevorfar/newWebstore",
   },
   {
     image: portfolio_old,

@@ -97,7 +97,7 @@ const About = () => {
                     <div className="flex-col">
                       <p className="text-lg">Java</p>
                       <p className="text-lg">C</p>
-                      <p className="text-lg">JavaScript</p>
+                      <p className="text-lg">TypeScript</p>
                       <p className="text-lg">SQL</p>
                     </div>
                     <div className="flex-col">
