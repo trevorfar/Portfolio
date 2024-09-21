@@ -1,6 +1,6 @@
 "use client";
 import MaxWidthWrapper from "@/utils/MaxWidthWrapper";
-import headshot from '../../public/Headshot.jpeg'
+import headshot from '../../public/1716247392150.jpeg'
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
