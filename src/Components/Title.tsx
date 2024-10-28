@@ -61,7 +61,7 @@ const Title = () => {
 
         <div className="text-left flex flex-row mx-4 md:mx-36 gap-4">
           <div className="flex flex-col w-30 h-36 md:w-36 md:h-42 mr-4 mb-4">
-            <Link className="border-2 border-black" href="https://drive.google.com/file/d/1nzeaXRy7EW4Wa_2DWjxub5g_Cxgb5dTt/view?usp=sharing" target="_blank"><Image src={tinyresume} alt="resume" /> </Link>
+            <Link className="border-2 border-black" href="https://drive.google.com/file/d/16A5B2vDIaTaDdTWx_gZm7wEU4aIerQXs/view?usp=sharing" target="_blank"><Image src={tinyresume} alt="resume" /> </Link>
             
           </div>  
           <div className="my-auto">
