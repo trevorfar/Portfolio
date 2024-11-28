@@ -44,6 +44,7 @@ const Projects = () => {
       >
         {projects.map((project, index) => (
           <Link href={project.preview || "#"}
+          key={index}
           target="_blank"
           className="block">
 
