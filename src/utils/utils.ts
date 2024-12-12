@@ -55,7 +55,7 @@ const projects = [
       },
     ],
     images: null,
-    preview: "https://veloce.vercel.app/",
+    preview: "https://geo-morph.vercel.app/",
     github: "https://github.com/trevorfar/GeoMorph",
   },
   {
