@@ -12,9 +12,11 @@ import flask from "../../public/chips/flask.svg"
 import python from "../../public/chips/python-5.svg"
 import Veloce from "../../public/Veloce.png"
 import C_Server from "../../public/C_Server.png"
+import WordMorph from "../../public/WordMorph.png"
 import nextChip from "../../public/chips/nextjs-icon.svg"
 import Redux from "../../public/chips/redux.svg"
 import C from "../../public/chips/C.svg"
+
 
 const projects = [
     {
@@ -48,6 +50,28 @@ const projects = [
     images: null,
     preview: "https://veloce.vercel.app/",
     github: "https://github.com/trevorfar/Veloce",
+  },
+    {
+    image: WordMorph,
+    title: "WordMorph",
+    body: "Fun dynamic word game built using Redux & NextGS, only built for computer environments.",
+    chips: [
+      {
+        img: react,
+      },
+      {
+        img: Typescript,
+      },
+      {
+        img: Redux,
+      },
+      {
+        img: tailwind,
+      },
+    ],
+    images: null,
+    preview: "https://geo-morph.vercel.app/",
+    github: "https://github.com/trevorfar/GeoMorph",
   },
   {
     image: GeoGuess,

@@ -43,6 +43,12 @@ const Projects = () => {
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-8"
       >
         {projects.map((project, index) => (
+          <Link href={project.preview || "#"}
+          key={index}
+          target="_blank"
+          className="block">
+
+
           <motion.div
             variants={cardVariants}
             initial="initial"
@@ -93,21 +99,14 @@ const Projects = () => {
                   href={project.github}
                   target="_blank"
                   className="flex items-center justify-center p-2 bg-black rounded-full hover:scale-110 transition-all"
+                  onClick={(e) => e.stopPropagation()}
                 >
                   <GitHub className="text-2xl" />
                 </Link>
               )}
-              {project.preview && (
-                <Link
-                  href={project.preview}
-                  target="_blank"
-                  className="flex items-center justify-center p-2 bg-black rounded-full hover:scale-110 transition-all"
-                >
-                  <Language className="text-2xl" />
-                </Link>
-              )}
             </div>
           </motion.div>
+          </Link>
         ))}
       </div>
     </section>
