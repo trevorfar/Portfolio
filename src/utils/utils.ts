@@ -11,10 +11,25 @@ import Typescript from "../../public/chips/Typescript.svg"
 import flask from "../../public/chips/flask.svg"
 import python from "../../public/chips/python-5.svg"
 import Veloce from "../../public/Veloce.png"
+import C_Server from "../../public/C_Server.png"
 import nextChip from "../../public/chips/nextjs-icon.svg"
 import Redux from "../../public/chips/redux.svg"
+import C from "../../public/chips/C.svg"
 
 const projects = [
+    {
+    image: C_Server,
+    title: "C-HTTP Server",
+    body: "Lightweigt multi-threaded HTTP server created fully with C capable of processing (receiving, parsing, and serving) HTTP requests, and concurrent clients.",
+    chips: [
+      {
+        img: C,
+      },
+    ],
+    images: null,
+    preview: null,
+    github: "https://github.com/trevorfar/C_HTTP_Processor",
+  },
     {
     image: Veloce,
     title: "Veloce",
@@ -75,7 +90,7 @@ const projects = [
         img: tailwind,
       },
     ],
-    preview: "https://digitalwebstore-production.up.railway.app",
+    preview: null,
     github: "https://github.com/trevorfar/newWebstore",
   },
   {
