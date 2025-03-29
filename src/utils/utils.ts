@@ -68,7 +68,7 @@ const projects = [
       },
     ],
     images: null,
-    preview: "https://veloce.vercel.app/",
+    preview: "https://veloce.trevorfarias.com/",
     github: "https://github.com/trevorfar/Veloce",
   },
     {
@@ -90,7 +90,7 @@ const projects = [
       },
     ],
     images: null,
-    preview: "https://geo-morph.vercel.app/",
+    preview: "https://geo-morph.trevorfarias.com/",
     github: "https://github.com/trevorfar/GeoMorph",
   },
   {
@@ -112,7 +112,7 @@ const projects = [
       },
     ],
     images: null,
-    preview: "https://country-game-alpha.vercel.app/",
+    preview: "https://geo-guess.trevorfarias.com",
     github: "https://github.com/trevorfar/CountryGame",
   },
   {
