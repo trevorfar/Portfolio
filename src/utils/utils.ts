@@ -11,6 +11,7 @@ import Typescript from "../../public/chips/Typescript.svg"
 import flask from "../../public/chips/flask.svg"
 import python from "../../public/chips/python-5.svg"
 import Veloce from "../../public/Veloce.png"
+import Timer from "../../public/timer.png"
 import C_Server from "../../public/C_Server.png"
 import WordMorph from "../../public/WordMorph.png"
 import nextChip from "../../public/chips/nextjs-icon.svg"
@@ -19,6 +20,25 @@ import C from "../../public/chips/C.svg"
 
 
 const projects = [
+    {
+    image: Timer,
+    title: "Timer",
+    body: "Simple study timer using Pexels video API for interesting backgrounds",
+    chips: [
+      {
+        img: react,
+      },
+      {
+        img: Typescript,
+      },
+      {
+        img: tailwind,
+      },
+    ],
+    images: null,
+    preview: "https://timer.trevorfarias.com/",
+    github: "https://github.com/trevorfar/timer",
+  },
     {
     image: C_Server,
     title: "C-HTTP Server",
@@ -133,7 +153,7 @@ const projects = [
       },
     ],
     images: null,
-    preview: "coral-app-u4wfy.ondigitalocean.app",
+    preview: "",
     github: "https://github.com/trevorfar/Portfolio_Site",
   },
 ]
